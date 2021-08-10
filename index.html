@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To do list</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="main_field">
+    <div class="input_field">
+        <label><input type="text" id="input" name="user_list" placeholder="Type here"></label>
+        <button id="btn_create" type="submit">Create</button>
+    </div>
+    <div class="container">
+        <div class="new">
+            <h2>New Tasks</h2>
+            <ul id="newTasks" class="placeholder"></ul>
+        </div>
+        <div class="completed">
+            <h2>Completed Tasks</h2>
+            <ul id="completed" class="placeholder"></ul>
+        </div>
+        <div class="saved">
+            <h2>Saved Tasks</h2>
+            <ul id="saved" class="placeholder"></ul>
+        </div>
+    </div>
+    <div class="for_end_btn">
+        <button id="btn_clear_all" type="submit">Clear All</button>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
